@@ -1,0 +1,297 @@
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:400");
+body {
+  background-color: #FABD21;
+  padding: 0;
+  margin: 0;
+  font-family: Montserrat, "sans-serif";
+  justify-content: center;
+}
+
+.header{
+    background-color: #F89D1C;
+    
+    
+}
+.menu {
+  padding: auto;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  
+}
+.menu li {
+  list-style-type: none;
+  flex-basis: 120px;
+  text-align: center;
+  margin: 0 0.3rem;
+}
+.menu a {
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: #111;
+  }
+.menu a:hover {
+    background-color: red;
+}
+
+.menu button{
+  display: inline-block;
+    padding: 0.5rem;
+    color: #111;
+    margin: 0.5rem;
+    background-color: red;
+}
+
+.menu button:hover{
+  background-color: beige;
+}
+
+.menu p {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  }
+  .cercle{
+    z-index: 1;
+    transform: translate(-50px);
+    
+  }
+
+  .cart{
+    z-index: 2;
+    width: 40px ;
+    height: 40px;
+  }
+
+  .titre {
+    padding: 0;
+    margin: 0;
+  }
+
+  .corps{
+    max-width: 600px ;
+    color: #2A435D;
+    text-align: right;
+    padding: 300px;
+  }
+
+  .corps h1{
+    font-size: 35px;
+    line-height: 1.2;
+}
+
+.corps .poulet{
+  display: flex;
+  transform: translate(800px);
+  margin-top: -300px;
+  
+  
+}
+
+.commande2{
+  background-color: red;
+  color: white;
+  text-transform: uppercase;
+ width: auto;
+ height: auto;
+ margin: 0.5rem;
+ padding: 0.5rem;
+ border-radius: 60px;
+}
+
+.corps2{
+  color: black;
+  text-align: center;
+  font-size:60px;
+
+}
+
+.menu2 {
+  display: flex;
+  justify-content: center;
+  border: solid 1px;
+  padding: auto;
+  margin: auto;
+  
+}
+
+.menu2 .rectacle{
+  display: flex;
+  
+}
+
+.contactez-nous {
+  border: 1px solid;
+  border-radius: 8px;
+  padding: 0 50px 0 50px;
+  background:#FABD21 ;
+}
+
+.contactez-nous p {
+  font-weight: 300;
+}
+
+form div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 83px;
+  margin-top: 25px;
+}
+
+form div  label {
+  margin-bottom: 7px;
+  font-weight: 600;
+}
+
+form div  input, form div  select, form div  textarea {
+  background: #2A435D;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Montserrat, "sans-serif";
+  box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.25);
+}
+
+form div  input, form div  select {
+  height: 50px;
+  padding-left: 10px;
+}
+
+form div  select {
+  appearance: none;
+  background-size: 15px;
+  background-position: right 10px top 50%;
+  background-repeat: no-repeat;
+}
+
+form div  textarea {
+  height: 195px;
+  padding: 15px 0px 0px 10px;
+}
+
+form div  input::placeholder, form div > textarea::placeholder {
+  color: white;
+}
+
+form div  select:invalid {
+  color: white;
+}
+
+form div select option {
+  background: white;
+  color: #303030;
+}
+
+form div:last-child {
+  align-items:center;
+  margin-top: 20px;
+}
+
+form button {
+  width: 450px;
+  max-width: 500px;
+  height: 60px;
+  font-weight: 700;
+  font-size: 28px;
+  background: white;
+  border: rgba(48, 48, 48, 0.5) solid 1px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+  color: #303030;
+}
+  form div:last-child {
+  align-items:center;
+  margin-top: 20px;
+  }
+  
+  form button {
+  width: 450px;
+  max-width: 500px;
+  height: 60px;
+  font-weight: 700;
+  font-size: 28px;
+  background: white;
+  border: rgba(48, 48, 48, 0.5) solid 1px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+  color: #303030;
+  }
+
+  .footer{
+    background:#F89D1C;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+    }
+    
+    .footer .ligne{
+    width:100%;
+    color:#0b0b0b ;
+    font-size:0.8em;
+    }
+    
+    .footer  a{
+    text-decoration:none;
+    color:#0b0b0b;
+    transition:0.5s;
+    }
+    
+    .footer  a:hover{
+    color:#fff;
+    }
+    
+    .footer ul{
+    width:auto;
+    }
+    
+    .footer ul li{
+    display:inline-block;
+    margin:0px 30px;
+    }
+    
+    .footer  a i{
+    font-size:2em;
+    margin:0% 1%;
+    }
+    .menu2{
+      display: flex;
+      align-items: center;
+      padding: 2%;
+      margin: 2%;
+      
+    }
+   
+  .plat1{
+    display: flex;
+    transform: translateY(-200px);
+ 
+
+  }
+
+  .rectancle1{
+    padding: 2%;
+    margin: 2%;
+   
+  }
+
+  .rectancle2{
+    padding: 2%;
+    margin: 2%;
+  }
+  .rectancle3{
+    padding: 2%;
+    margin: 2%;
+  }
+
+  .plat-texte{
+    display:center;
+    transform: translateY(190px);
+    margin-left: 30%;
+   
+
+    
+  }
+
+     
